@@ -1,0 +1,36 @@
+.visuallyhidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1pxs);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    }
+
+nav{
+    text-align: center;
+}
+
+nav ul {
+    background-color:rgba(56, 64, 65, 0.342);
+    border-radius: 10px;
+    }
+
+nav li {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 18px;
+    font-weight: bolder;
+    }
+
+.pic {
+    margin-left: 35px;
+    text-align: center;
+    position: relative;
+}
+
+.fistName {
+    position: absolute;
+}
