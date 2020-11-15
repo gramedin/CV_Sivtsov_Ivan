@@ -1,3 +1,7 @@
+* {
+    background-color: rgb(15, 15, 61);
+}
+
 .visuallyhidden {
     position: absolute;
     clip: rect(1px, 1px, 1px, 1pxs);
@@ -7,30 +11,30 @@
     }
 
 nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     text-align: center;
+    width: 100%;
 }
 
 nav ul {
-    background-color:rgba(56, 64, 65, 0.342);
     border-radius: 10px;
     }
 
 nav li {
-    width: 150px;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
     font-family: 'Snell Roundhand', cursive;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bolder;
+    color: blanchedalmond;
+    margin:0 100px;
     }
 
 .pic {
-    margin-left: 35px;
+    margin-top: 50px;
     text-align: center;
-    position: relative;
-}
-
-.fistName {
-    position: absolute;
 }
